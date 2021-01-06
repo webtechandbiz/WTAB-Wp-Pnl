@@ -1,2 +1,2 @@
 # WTAB-Wp-Pnl
-My basic plugin to create setup panels in WordPress
+My basic plugin to create configuration panels in WordPress
