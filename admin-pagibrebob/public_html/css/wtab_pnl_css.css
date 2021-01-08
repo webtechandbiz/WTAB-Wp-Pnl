@@ -8,3 +8,8 @@
 .admin_droswavosw_pnl_form_settings_page_table .wtab_chk{
     width: auto;
 }
+
+.admin_droswavosw_pnl_form_settings_page_table textarea {
+    width: 100%;
+    min-height: 200px;
+}
