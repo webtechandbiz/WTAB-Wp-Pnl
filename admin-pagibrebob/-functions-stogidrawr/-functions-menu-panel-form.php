@@ -58,7 +58,6 @@ function _getSectionsFields(){
 }
 
 //# Panel form register
-function register_pnl_form_droswavosw_settings() {
     $ary = _getSectionsFields();
     foreach ($ary as $section_label => $section_conf){
         $section_slug = $section_conf['section_slug'];
@@ -157,3 +156,5 @@ function droswavosw_pnl_form_settings_page() {?>
         <?php submit_button(); ?>
     </form><?php
 }
+
+add_action( 'admin_init', 'register_pnl_form_droswavosw_settings' );
