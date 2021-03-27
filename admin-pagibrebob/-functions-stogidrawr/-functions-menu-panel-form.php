@@ -151,6 +151,12 @@ function droswavosw_pnl_form_settings_page() {?>
                                 }
                                 break;
 
+                            case 'upload':
+                                echo '
+                                    <tr>
+                                        <td>'.$field_label.'</td><td><input type="text" name="'.$field_conf['field_slug'].'" id="'.$field_conf['field_slug'].'" value="'.get_option($field_conf['field_slug']).'" class="wtab_upl"/></td>
+                                    </tr>';
+                                break;
                             default:
                                 break;
                         }
