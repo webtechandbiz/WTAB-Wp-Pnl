@@ -50,6 +50,12 @@ function _getSectionsFields(){
                             'field_type' => 'checkbox'
                         )
                     ,
+                    'Upload file Step' => 
+                        array(
+                            'field_slug' => 'field_upload_slug',
+                            'field_type' => 'text'
+                        )
+                    ,
                 )
             )
         
