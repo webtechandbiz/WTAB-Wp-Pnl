@@ -92,14 +92,14 @@ function droswavosw_pnl_form_settings_page() {?>
                             case 'text':
                                 echo '
                                     <tr>
-                                        <td>'.$field_label.'</td><td><input type="text" name="'.$field_conf['field_slug'].'" value="'.get_option($field_conf['field_slug']).'"/></td>
+                                        <td>'.$field_label.'</td><td><input type="text" name="'.$field_conf['field_slug'].'" id="'.$field_conf['field_slug'].'" value="'.get_option($field_conf['field_slug']).'"/></td>
                                     </tr>';
                                 break;
 
                             case 'textarea':
                                 echo '
                                     <tr>
-                                        <td>'.$field_label.'</td><td><textarea name="'.$field_conf['field_slug'].'">'.get_option($field_conf['field_slug']).'</textarea></td>
+                                        <td>'.$field_label.'</td><td><textarea name="'.$field_conf['field_slug'].'" id="'.$field_conf['field_slug'].'">'.get_option($field_conf['field_slug']).'</textarea></td>
                                     </tr>';
                                 break;
 
