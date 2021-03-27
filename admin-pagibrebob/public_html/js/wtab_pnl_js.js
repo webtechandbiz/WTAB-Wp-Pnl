@@ -11,6 +11,14 @@ jQuery( document ).ready(function() {
             jQuery('#' + this_id).val('0');
         }
     });
+
+    jQuery('body').on( 'click', '.wtab_upl', function(e){
+        var title = 'Choose or upload';
+        var ext = 'jpg';
+        var label = 'Confirm';
+        var attachto = this.id;
+        wtab_importer_upl(title, ext, label, attachto);
+    });
 });
 
 function wtab_upl(title, ext, label, attachto){
