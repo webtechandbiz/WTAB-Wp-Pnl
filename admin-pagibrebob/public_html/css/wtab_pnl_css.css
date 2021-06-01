@@ -14,3 +14,7 @@
 .admin_droswavosw_pnl_form_settings_page_table .wtab_upl{
     cursor: pointer;
 }
+
+.inside input, textarea {
+    width: 100%;
+}
